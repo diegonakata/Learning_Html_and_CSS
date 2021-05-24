@@ -1,0 +1,20 @@
+@media screen and (max-width:767px) {
+    #video {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:1023px) and (min-width:768px) {
+    #video {
+        width: 70%;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    #video {
+        width: 47%;
+    }
+    
+}

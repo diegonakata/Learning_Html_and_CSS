@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url(../font/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Extrabold';
+    src: url(../font/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../font/Roboto-Light.ttf);
+}
+
+.highlight {
+    display: inline;
+    background: #333333;
+    color: #fff;
+    word-wrap: break-word;
+    padding: 1px;
+}
+
+.highlight-shadow {
+    position: relative;
+    left: 10px;
+    padding-left: 0;
+    box-shadow: 5px 0 0 #333333, -5px 0 0 #333333;
+}
+
+body{ /*familia fontes do body*/
+    font-family: 'Montserrat-Black', 'Montserrat-Bold', 'OpenSans-Extrabold', 'Roboto-Bold', 'Roboto-Light';
+}
+
+.txt1 { /*fonte texto 1*/
+    font-size: 35px;
+    margin: 70px auto;
+    text-align: center;
+    line-height: 50px;
+    color: #333333;
+}
+
+.txt2 { /*fonte texto 2*/
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px auto 25px auto;
+    text-align: center;
+}
+
+.txt2 div {
+    margin: 4px auto;
+}
+
+#wplink a {
+    text-decoration: none;
+}
+
+.wpimgtxt p { /*fonte whatsapp*/
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.footercfg p { /*fonte rodape*/
+    color:#686868;
+    text-align: left;
+    font-size: 10px;
+    line-height: 15px;
+    font-family: 'Roboto-Bold';
+}
+
+.footercfg p span {
+    font-family:'Roboto-Light';
+}

@@ -1,0 +1,174 @@
+<html>
+    <head>
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/f1df251db2.js" crossorigin="anonymous"></script>
+    </head>
+<style>
+    
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .footer{
+        background-color: rgb(242, 242, 242);
+        height: 250px;
+        width: 100%;
+    }
+    .midias {
+        height: 30px;
+        position: relative;
+        border: 1px yellow dotted;
+        width: 100%;
+    }
+    .container-list{
+        max-width:100vw;
+        min-width: 20vw;
+        display: flex;
+        justify-content: center;
+        border: dotted blue 1px;
+    }
+    .list{
+        position: relative;
+        margin: auto;
+    }
+    .list li {
+        display: inline;
+    }
+    .button-media{
+        position: relative;
+        background-color: rgb(185 153 19);
+        margin: 0 3px 0 3px;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        float: left;
+    }
+    .button-media i{
+        margin-top: 25%;  
+        color:white;      
+    }
+    .button-media:hover{
+        cursor: pointer;
+    }
+    .infos{
+        position: relative;
+        height: 220px;
+        border: double 1px blue;
+    }
+    .links, .copyrights{
+        color: rgb(120 120 120);
+        position: relative;
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .block-link{
+        position: relative;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    .block-link #text ul{
+        list-style-type: none;
+        font-size: 12px;
+    }
+    .vertical-divider{
+        vertical-align: auto;
+        border-left: 2px solid rgb(107 107 107);
+        height: 80%;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+    }
+    .cp-content{
+        width: 50%;
+        font-size: 12px;
+    }
+    .copyrights img, .copyrights h4{
+        float: right;
+    }
+</style>
+<body>
+    <div class="footer">
+        <div class="midias">
+            <div class="container-list">
+                <ul class="list">
+                    <li>
+                        <div class="button-media">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="button-media">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="button-media">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        </div>
+                    </li><li>
+                        <div class="button-media">
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </div>
+                    </li><li>
+                        <div class="button-media">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="infos">
+            <div class="links">
+                <div class="block-link"></div>
+                <div class="block-link">
+                    <div class="vertical-divider"></div>
+                    <div id="text">
+                        <ul>
+                            <br>
+                            <li>Fique em dia</li>
+                            <br>
+                            <li>Dúvidas | FAQ
+                            </li>
+                            <br>
+                            <li>Fale com a gente
+                            </li>
+                            <br>
+                            <li>Termo de uso
+                            </li>
+                            <br>
+                            <li>Política de privacidade</li>
+                        </ul>             
+                    </div>
+                </div>                    
+                <div class="block-link">
+                    <div class="vertical-divider"></div>
+                    <div id="text">
+                        <ul>
+                            <br>
+                            <li>Ouvidoria</li>
+                            <br>
+                            <li>Imprensa</li>
+                            <br>
+                            <li>Segurança</li>
+                            <br>
+                            <li>Canal de Denúncias</li>
+                            <br>
+                            <li>Trabalhe com a gente</li>
+                        </ul>   
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights">
+                <div class="cp-content">
+                    <br>
+                    <h4>Copyright © 2020 Todos os Direitos Reservados</h4>
+                    <img src="../assets/athos2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
