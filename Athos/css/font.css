@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Rockwell-Bold';
+    src: url(../fonts/Rockwell-Bold.ttf);
+}
+
+body {
+    font-family: 'OpenSans-Bold', 'OpenSans-ExtraBold', 'OpenSans-Light', 'OpenSans-Regular', 'Poppins-Bold', 'Poppins-Medium', 'Roboto-Black', 'Roboto-Bold', 'Roboto-Light', 'Roboto-Regular', 'Rockwell-Bold';
+}
+

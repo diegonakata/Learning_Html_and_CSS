@@ -1,0 +1,119 @@
+@import url("./reset.css");
+@import url("./font.css");
+@import url("./screen.css");
+
+body {
+    background-color:#e8e8e8;
+}
+
+#top {
+    text-align: center;
+    background-color: #fff;
+}
+
+.container {
+    overflow: visible;
+}
+
+.content {
+    width: 850px;
+    margin: 0 auto;
+    overflow:auto;
+    padding: 20px 0px 0px 0px;
+}
+
+.content p {
+    color: #686868;
+}
+
+#logo {
+    width: 80px;
+    height: 38px;   
+    float: left;
+    margin-bottom: 20px;
+}
+
+#nav {
+    float: right;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    line-height: 38px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #333;
+    font-family:'OpenSans-ExtraBold';
+}
+
+#nav li a:hover {
+    color: #686868;
+}
+
+#footer {
+    /*padding: 20px;*/
+    overflow: auto;
+    margin-bottom:20px;
+    background-color: #fff;
+}
+
+#footer .content {
+    background-image: url(../images/athos.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 15px;
+    margin-bottom: 80px;
+}
+
+#footer .content p {
+    text-align: right;
+}
+
+#socialmedia {
+    width: 155px;
+    height: 25px;
+    margin: 0 auto 20px auto;
+    overflow: auto;
+}
+
+#socialmedia li {
+    margin: 0px 3px;
+    float: left;
+    background-color: #b99913;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#socialmedia li a img {
+    height: 15px;
+    display: block;
+    margin: 5px auto 0px auto;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+#footlinksleft, #footlinksright {
+    width: 230px;
+    float: left;
+    border-left: 2px solid #686868;
+    padding-top: 15px;
+}
+
+#footlinksleft li, #footlinksright li {
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+#footlinksleft li a, #footlinksright li a {
+    font-family: 'Roboto-Regular';
+    color: #686868;
+    cursor: pointer;
+}
+
+
+
+
+
